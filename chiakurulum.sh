@@ -11,6 +11,7 @@ sudo apt-get install git -y
 sudo apt-get install make -y
 sudo apt-get install screen -y
 sudo apt --reinstall install fuse -y 
+sudo apt-get install rclone -y
 sudo apt-get install unzip -y
 
 mkdir /root/plt
@@ -55,7 +56,7 @@ screen -dmS upload bash -c 'bash upload.sh'
 
 
 cd ~
-apt update -y
+
 screen -x plot
 cd ~
 
